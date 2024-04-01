@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const routes = require('./Loit/MealRoutes');
+const routes = require('./MealRoutes');
 const cors = require('cors');
 
 mongoose.set("strictQuery", false);

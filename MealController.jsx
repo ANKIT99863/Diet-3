@@ -1,4 +1,4 @@
-const MealModel = require("../MealModel");
+const MealModel = require("./MealModel");
 const mongoose = require("mongoose");
 
 // GET
